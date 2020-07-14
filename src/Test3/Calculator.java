@@ -318,7 +318,7 @@ public class Calculator
             postfixStack.push( new Long( lhs + rhs ) );
         else if( topOp == MINUS )
             postfixStack.push( new Long( lhs - rhs ) );
-        else if( topOp == MULT )
+        else if( topOp == MULT || topOp == OPAREN)
             postfixStack.push( new Long( lhs * rhs ) );
         else if( topOp == MULTMINUS )
             postfixStack.push( new Long( lhs * (-rhs) ) );
