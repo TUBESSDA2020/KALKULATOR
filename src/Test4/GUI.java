@@ -27,7 +27,7 @@ import java.util.Stack;
  * @author Luka Kralj
  * @version 30 March 2018
  */
-public class BasicMode extends KeyAdapter {
+public class GUI extends KeyAdapter {
 
     private static final int BUTTON_WIDTH = 50;
     private static final int BUTTON_HEIGHT = 30;
@@ -47,7 +47,7 @@ public class BasicMode extends KeyAdapter {
     /**
      * Construct the basic calculator.
      */
-    public BasicMode() {
+    public GUI() {
         decimalPointEntered = false;
         bracketCounter = 0;
         previousExpressions = new Stack<>();

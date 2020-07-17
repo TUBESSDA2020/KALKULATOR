@@ -12,7 +12,7 @@ package Test4;
 public class Main {
     public static void main(String[] args) {
 
-        BasicMode calculator = new BasicMode();
+        GUI calculator = new GUI();
 
     }
 }
